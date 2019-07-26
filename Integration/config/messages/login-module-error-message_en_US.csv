@@ -1,0 +1,208 @@
+messageKey,en_US,categoryName,subcategoryName
+LITERAL_CHARACTERS,characters,SPT,SPT:bip-services|
+USERNAME_INVALID_LENGTH,Username must be between {0} and {1} characters in length.,SPT,SPT:bip-services|
+PASSWORD_INVALID_LENGTH,Password must be between {0} and {1} characters in length without any white spaces.,SPT,SPT:bip-services|
+PASSWORD_RESET_SUCCESS,Password has been successfully reset for user:,SPT,SPT:bip-services|
+PASSWORD_USERNAME_MATCH,Password should not be same as username.,SPT,SPT:bip-services|
+PASSWORD_RESET_FAILED,Password reset failed for username:,SPT,SPT:bip-services|
+PASSWORD_RESET_UNAUTHORIZED,You are not authorized to reset password.,SPT,SPT:bip-services|
+PASSWORD_CHANGE_SUCCESS,Password changed successfully.,SPT,SPT:bip-services|
+PASSWORD_CHANGE_FAILED,There is some problem changing the password.Please contact SICK system administrator.,SPT,SPT:bip-services|
+PASSWORD_INVALID," Please enter valid password. Password should contain atleast one uppercase letter,one lowercase letter and one number,without any whitespaces or special characters.",SPT,SPT:bip-services|
+PASSWORD_CHANGE_MATCH,New password and confirm password should be same.,SPT,SPT:bip-services|
+CURRENT_PASSWORD_INVALID,Invalid current password,SPT,SPT:bip-services|
+CURRENT_NEW_PASSWORD_MATCH,New password should not be same as current password.,SPT,SPT:bip-services|
+USER_IS_EXIST,isExist,SPT,SPT:bip-services|
+USER_EXIST,Username already exists.,SPT,SPT:bip-services|
+USER_NOT_EXIST,User does not exist.,SPT,SPT:bip-services|
+USER_NOT_FOUND,User not found.,SPT,SPT:bip-services|
+USER_CREATE_SUCCESS,User created successfully.,SPT,SPT:bip-services|
+USER_CREATE_FAILED,Unable to create user.,SPT,SPT:bip-services|
+USER_CREATE_FAILED_PREFIX_MSG,Failed to create user:,SPT,SPT:bip-services|
+USER_DISABLE_SUCCESS,User disabled successfully.,SPT,SPT:bip-services|
+USER_DELETE_SUCCESS,User deleted successfully.,SPT,SPT:bip-services|
+USER_MODIFY_SUCCESS,Profile modified successfully.,SPT,SPT:bip-services|
+USER_MODIFY_FAILED,There is some problem in editing the user profile.Please contact SICK system administrator.,SPT,SPT:bip-services|
+USER_DISABLE_FAILED,User not disabled.,SPT,SPT:bip-services|
+USER_ID_INVALID,Invalid User Id specified.,SPT,SPT:bip-services|
+USERNAME_EMPTY,Username must be provided.,SPT,SPT:bip-services|
+USERNAME_EXISTS,Username exists.,SPT,SPT:bip-services|
+USERNAME_NOT_EXISTS,Username does not exist.,SPT,SPT:bip-services|
+USERNAME_INVALID,Invalid username. Only alphanumeric  periods(.) and underscores(_) are allowed. Username must not begin or end with period or underscore. Consecutive periods and underscores are not allowed.,SPT,SPT:bip-services|
+LOGOUT_SUCCESS,You have been successfully logged out from the application.,SPT,SPT:bip-services|
+LOGOUT_FAIL,You are not a authenticated user.,SPT,SPT:bip-services|
+EMAIL_ALREADY_EXIST,Email already exists.,SPT,SPT:bip-services|
+EMAIL_NOT_NULL,Email must be provided.,SPT,SPT:bip-services|
+EMAIL_INVALID,Please enter a valid email.,SPT,SPT:bip-services|
+EMAIL_INVALID_LENGTH,Email must be between {0} and {1} characters in length without any white spaces.,SPT,SPT:bip-services|
+FIRSTNAME_EMPTY,First name is incorrect or empty.,SPT,SPT:bip-services|
+LASTNAME_EMPTY,Last name is incorrect or empty.,SPT,SPT:bip-services|
+FIRSTNAME_INVALID_LENGTH,First name should be less than {0 } {1},SPT,SPT:bip-services|
+LASTNAME_INVALID_LENGTH,Last name should be less than {0} {1},SPT,SPT:bip-services|
+PASSWORD_EMPTY,Password must be provided.,SPT,SPT:bip-services|
+PASSWORD_HISTORY_MATCHED,Password History found a match,SPT,SPT:bip-services|
+PASSWORD_HISTORY_MATCHED_PREFIX,New password should not match previous {0} passwords,SPT,SPT:bip-services|
+PASSWORD_HISTORY_MATCHED_POSTFIX,passwords,SPT,SPT:bip-services|
+GROUP_ALL_FIELD_MISSING,Group name or role is/are missing.,SPT,SPT:bip-services|
+INVALID_GROUP_SPECIFIED,Invalid Group specified.,SPT,SPT:bip-services|
+GROUP_ID_NOT_FOUND,Group id does not exist.,SPT,SPT:bip-services|
+GROUP_NAME_EMPTY,Group name must be provided.,SPT,SPT:bip-services|
+GROUP_NAME_EXIST,Group name already exists.,SPT,SPT:bip-services|
+GROUP_LABEL_EXIST,Group display name already exists.,SPT,SPT:bip-services|
+DISPLAY_NAME_EXIST,Display name already exists.,SPT,SPT:bip-services|
+GROUP_CREATE_SUCCESS,Group created successfully.,SPT,SPT:bip-services|
+GROUP_CREATE_FAILED_PREFIX_MSG,Unable to create group: Group name or role is/are missing.,SPT,SPT:bip-services|
+GROUP_CREATE_FAILED,Failed to create group.,SPT,SPT:bip-services|
+GROUP_MODIFY_SUCCESS,Group modified successfully.,SPT,SPT:bip-services|
+GROUP_MODIFY_FAILED,Group modification failed.,SPT,SPT:bip-services|
+GROUP_DELETE_FAILED,Unable to delete group.,SPT,SPT:bip-services|
+GROUP_DELETE_SUCCESS,Group deleted successfully.,SPT,SPT:bip-services|
+GROUP_DISABLE_SUCCESS,Group disabled successfully.,SPT,SPT:bip-services|
+GROUP_DISABLE_FAILED,Unable to disable group.,SPT,SPT:bip-services|
+GROUP_DESCRIPTION_NULL,Description must be provided.,SPT,SPT:bip-services|
+GROUP_NAME_NULL,Group name must be provided.,SPT,SPT:bip-services|
+GROUP_DISPLAY_NAME_NOT_NULL,Group display name must be provided.,SPT,SPT:bip-services|
+GROUP_NAME_INVALID,Invalid group name. space < > \ ' & / . are not allowed.,SPT,SPT:bip-services|
+GROUPNAME_NOT_ALLOWED,You are not allowed to use this group,SPT,SPT:bip-services|
+SELF_GROUP_MODIFY_NOT_ALLOWED,You cannot edit your own group,SPT,SPT:bip-services|
+ROLE_NAME_NOT_NULL,Role name must be provided.,SPT,SPT:bip-services|
+ROLE_LABEL_NOT_NULL,Role displayName must be provided.,SPT,SPT:bip-services|
+ADMIN_ROLE_CODE,ROLE_ADMIN,SPT,SPT:bip-services|
+SUPER_ADMIN_ROLE_CODE,ROLE_SUPER_ADMIN,SPT,SPT:bip-services|
+USER_ROLE_CODE,ROLE_USER,SPT,SPT:bip-services|
+ROLE_EXIST,Role already exists.,SPT,SPT:bip-services|
+ROLE_CREATED,Role created successfully.,SPT,SPT:bip-services|
+FAILED_CREATE_ROLE,Failed to create role:,SPT,SPT:bip-services|
+FAILED_CREATE_PRIVILEGE,Failed to create privilege:,SPT,SPT:bip-services|
+ROLE_FAILED_CREATE,Unable to create role.,SPT,SPT:bip-services|
+ROLE_FAILED_EDIT_NO_PRIVILEGES,No valid privileges provided. Unable to modify role.,SPT,SPT:bip-services|
+DISABLE_SUCCESS_MESSAGE,You have disabled the role.,SPT,SPT:bip-services|
+DISABLE_FAILURE_MESSAGE,Disabling of role failed.,SPT,SPT:bip-services|
+ROLE_NAME_EXIST,Role name already exists.,SPT,SPT:bip-services|
+ROLE_NAME_PRIVILEGE_EMPTY," Role name,privilege or displayName can not be empty.",SPT,SPT:bip-services|
+ROLE_ALL_FIELD_MISSING,Role name or privilege or displayName is/are missing.,SPT,SPT:bip-services|
+INVALID_ROLE_SPECIFIED,Invalid Role specified.,SPT,SPT:bip-services|
+ROLE_ATTACHED_WITH_GROUPS,Role is attached with groups  can not delete.,SPT,SPT:bip-services|
+ROLE_DELETE_FAILED,Unable to delete role,SPT,SPT:bip-services|
+ROLE_NOT_FOUND,Role not found.,SPT,SPT:bip-services|
+ROLE_DELETE_SUCCESS,Role deleted successfully.,SPT,SPT:bip-services|
+ROLE_DELETED,Role already deleted.,SPT,SPT:bip-services|
+ROLE_EDIT_SUCCESS,Role modified successfully.,SPT,SPT:bip-services|
+ROLE_EDIT_FAIL,Failed to modify role.  Please enter one or more fields to modify.,SPT,SPT:bip-services|
+ROLE_EDIT_FAILURE,There is some problem in editing the existing role.Please contact SICK system administrator.,SPT,SPT:bip-services|
+ROLE_ALREADY_DISABLED,This role has already been disabled.,SPT,SPT:bip-services|
+INVALID_ROLE_NAME,Invalid role name. space < > \ ' & / . are not allowed.,SPT,SPT:bip-services|
+ROLE_LABEL_EXIST,Role display name already exists.,SPT,SPT:bip-services|
+ROLE_FAILED_CREATE_NO_PRIVILEGES,No valid privileges provided. Unable to create/modify role.,SPT,SPT:bip-services|
+ROLE_DISABLE_NOT_ALLOWED,You cant disable your own role,SPT,SPT:bip-services|
+ROLE_DELETE_NOT_ALLOWED,You cant delete your own role,SPT,SPT:bip-services|
+SELF_ROLE_MODIFY_NOT_ALLOWED,You cannot edit your own role,SPT,SPT:bip-services|
+PRIVILEGE_CREATED,Privilege created successfully.,SPT,SPT:bip-services|
+PRIVILEGE_FAILED_CREATE,Unable to create privilege.,SPT,SPT:bip-services|
+PRIVILEGE_DISABLED,Privilege disabled.,SPT,SPT:bip-services|
+PRIVILEGE_EDIT_SUCCESS,Privilege modified successfully.,SPT,SPT:bip-services|
+PRIVILEGE_NOT_FOUND,Privilege not found.,SPT,SPT:bip-services|
+PRIVILEGE_ATTACHED_WITH_ROLE,Privilege is attached with role can not delete,SPT,SPT:bip-services|
+PRIVILEGE_NOT_EDIT_SUCCESS,There is some problem in editing the existing privilege.Please contact SICK system administrator.,SPT,SPT:bip-services|
+INVALID_PRIVILEGE_SPECIFIED_PREFIX,Invalid privilege {0} Specified,SPT,SPT:bip-services|
+INVALID_PRIVILEGE_SPECIFIED_POSTFIX,Specified,SPT,SPT:bip-services|
+PRIVILEGE_FAILED_DISABLE,Unable to disable privilege.,SPT,SPT:bip-services|
+PRIVILEGE_ALREADY_EXIST,Privilege already exists.,SPT,SPT:bip-services|
+PRIVILEGE_DISPLAY_NAME_ALREADY_EXIST,Privilege display name already exists.,SPT,SPT:bip-services|
+PRIVILEGE_NAME_DESCRIPTION_EMPTY,Privilege name display name and description can not be empty.,SPT,SPT:bip-services|
+PRIVILEGE_NAME_NOT_NULL,Privilege name must be provided.,SPT,SPT:bip-services|
+PRIVILEGE_DISPLAY_NAME_NOT_NULL,Privilege display name must be provided.,SPT,SPT:bip-services|
+PRIVILEGE_DESCRIPTION_NOT_NULL,Privilege description must be provided.,SPT,SPT:bip-services|
+PRIVILEGE_DESCRIPTION_NOT_EMPTY,Privilege description can not be empty,SPT,SPT:bip-services|
+INVALID_PRIVILEGE_NAME,Privilege name must be all in CAPITAL letters and should have exactly one underscore in between the letters. The standard naming convention for privileges is <ACTION>_<COMPONENT>. For example: CREATE_USER  where CREATE is an action and USER is a component,SPT,SPT:bip-services|
+INVALID_PRIVILEGE_DISPLAY_NAME,Privilege display name must be in alphabet with spaces between words,SPT,SPT:bip-services|
+USER_PREFERENCES_EXIST,User's preferences already exist.,SPT,SPT:bip-services|
+USER_PREFERENCES_NOT_FOUND,User's preferences not found.,SPT,SPT:bip-services|
+USER_PREFERENCES_CREATE_SUCCESS,User's preferences saved.,SPT,SPT:bip-services|
+USER_PREFERENCES_CREATE_FAILED,Unable to save preferences.,SPT,SPT:bip-services|
+USER_PREFERENCES_DELETE_SUCCESS,User's preferences deleted.,SPT,SPT:bip-services|
+USER_PREFERENCES_DELETE_FAILED,Unable to delete user's preferences.,SPT,SPT:bip-services|
+USER_PREFERENCES_MODIFY_SUCCESS,User's preference modified successfully.,SPT,SPT:bip-services|
+USER_PREFERENCES_MODIFY_FAILED,Unable to modify user's preferences.,SPT,SPT:bip-services|
+USER_PREFERENCES_LIST_MSG,List of all user's preferences.,SPT,SPT:bip-services|
+GLOBAL_PREFERENCES_EXIST,Global Preferences already exist.,SPT,SPT:bip-services|
+GLOBAL_PREFERENCES_NOT_FOUND,Global preferences not found,SPT,SPT:bip-services|
+GLOBAL_PREFERENCES_CREATE_SUCCESS,Global preferences saved.,SPT,SPT:bip-services|
+GLOBAL_PREFERENCES_CREATE_FAILED,Unable to save global preferences,SPT,SPT:bip-services|
+GLOBAL_PREFERENCES_DELETE_SUCCESS,Global preferences deleted.,SPT,SPT:bip-services|
+GLOBAL_PREFERENCES_DELETE_FAILED,Global preferences can not be deleted.,SPT,SPT:bip-services|
+GLOBAL_PREFERENCES_MODIFY_SUCCESS,Global preferences modified successfully.,SPT,SPT:bip-services|
+GLOBAL_PREFERENCES_MODIFY_FAILED,Global preferences can not be modified.,SPT,SPT:bip-services|
+CLIENT_NOT_EXIST,Client details does not exist.,SPT,SPT:bip-services|
+CLIENT_UPDATED,Client details has been updated successfully.,SPT,SPT:bip-services|
+CLIENT_NOT_UPDATED,There is some problem in updating the client details.Please contact SICK system administrator.,SPT,SPT:bip-services|
+HEADER_AUTHORIZATION,Authorization,SPT,SPT:bip-services|
+HEADER_BEARER,Bearer,SPT,SPT:bip-services|
+DEFAULT_APP_TIMEZONE,UTC,SPT,SPT:bip-services|
+INVALID_PAGE_SIZE,Page Size should be less than,SPT,SPT:bip-services|
+PAGE_NOT_FOUND,Page not found.,SPT,SPT:bip-services|
+NO_FIELD_ENTERED,Please enter one or more fields to modify.,SPT,SPT:bip-services|
+INVALID_JSON,Incorrect JSON please enter a valid Json.,SPT,SPT:bip-services|
+NO_RECORD_FOUND,No record found.,SPT,SPT:bip-services|
+DISPLAY_NAME_INVALID_PATTERN,Invalid display name. < > \ ' & / . are not allowed.,SPT,SPT:bip-services|
+ACTION_NOT_AUTHORIZED,You are not authorized to perform this action.,SPT,SPT:bip-services|
+EMAIL_EXISTS,Email exists.,SPT,SPT:bip-services|
+EMAIL_NOT_EXISTS,Email does not exists.,SPT,SPT:bip-services|
+EMAIL_IS_EXIST,isExist,SPT,SPT:bip-services|
+PRIVILEGE_NOT_ASSIGNABLE,You are not authorized to perform this action : Privilege FULL_ACCESS can't be assigned,SPT,SPT:bip-services|
+DISABLE_DELETE_NOT_ALLOWED,You cant delete/disable your own group,SPT,SPT:bip-services|
+NO_OF_PREVIOUS_PASSWORD,no_of_previous_password,SPT,SPT:bip-services|
+HEADER_TIMEZONE,Timezone,SPT,SPT:bip-services|
+SICKADMIN_GROUPNAME,sickadmin,SPT,SPT:bip-services|
+APPLICATION_EXCEPTION,There is some problem in the application . Please contact SICK administrator.,SPT,SPT:bip-services|
+AUTHENTICATION_FAILED,Authentication Failed,SPT,SPT:bip-services|
+INVALID_TIMEZONE,Please provide a valid timezone. Following timezones are valid:,SPT,SPT:bip-services|
+GMT,GMT,SPT,SPT:bip-services|
+UTC,UTC,SPT,SPT:bip-services|
+SETTINGS_UPDATE,Settings modified successfully.,SPT,SPT:bip-services|
+SETTINGS_JSON_NOT_GIVEN,At least one key value pair must be provided.,SPT,SPT:bip-services|
+SETTINGS_KEY_VALUE_PAIR,Please provide settings as key and value pair.,SPT,SPT:bip-services|
+SETTINGS_KEY_NOT_EXIST,Key does not exist.,SPT,SPT:bip-services|
+SETTINGS_KEY_REGEX_MISMATCH,Key must start with an alphabet and may contain only alphabets and underscores. Consecutive underscores are not allowed.,SPT,SPT:bip-services|
+IDLE_TIMEOUT,idle_timeout,SPT,SPT:bip-services|
+IDLE_TIMEOUT_REMINDER,idle_timeout_reminder,SPT,SPT:bip-services|
+FACTOR,factor,SPT,SPT:bip-services|
+MODIFY_FACTOR_NOT_ALLOWED,Factor can not be modified.,SPT,SPT:bip-services|
+INVALID_IDLE_TIMEOUT,Value for {0} can contain only positive numeric values. Zero and any negative numeric value is not allowed.,SPT,SPT:bip-services|
+INVALID_IDLE_TIMEOUT_REMINDER,Value for  {0} can contain only positive numeric values. Zero and any negative numeric value is not allowed.,SPT,SPT:bip-services|
+INVALID_FACTOR,Value for  {0} can contain only positive numeric values. Zero and any negative numeric value is not allowed.,SPT,SPT:bip-services|
+INVALID_NO_OF_PREVIOUS_PASSWORD,Value for   {0} can contain only positive numeric values. Negative numeric value is not allowed.,SPT,SPT:bip-services|
+INVALID_VALUE,{0} should me more than  {1},SPT,SPT:bip-services|
+ACCESS_CONROL_MAX_AGE,3600,SPT,SPT:bip-services|
+GLOBAL_PREFERENCES_NEW_KEY_ADD_FAILED,preference key already exist,SPT,SPT:bip-services|
+INVALID_OAUTH_ACCESS_TOKEN_VALUE,Access token validity value should be greater than zero,SPT,SPT:bip-services|
+INVALID_OAUTH_REFRESH_TOKEN_VALUE,Refresh token validity value should be greater than zero,SPT,SPT:bip-services|
+GROUP_NAME_MIN_LENGTH_MISSED,Group name should have atleast {0} characters,SPT,SPT:bip-services|
+GROUP_DISPLAY_NAME_MIN_LENGTH_MISSED,Group display name should have atleast {0} characters,SPT,SPT:bip-services|
+GROUP_DESCRIPTION_MIN_LENGTH_MISSED,Group description should have atleast {0} characters,SPT,SPT:bip-services|
+GROUP_NAME_MAX_LENGTH_EXCEED,Group name should not exceed {0} characters,SPT,SPT:bip-services|
+GROUP_DISPLAY_NAME_MAX_LENGTH_EXCEED,Group display name should not exceed {0} characters,SPT,SPT:bip-services|
+GROUP_DESCRIPTION_MAX_LENGTH_EXCEED,Group description should not exceed {0} characters,SPT,SPT:bip-services|
+PRIVILEGE_NAME_MIN_LENGTH_MISSED,Privilege name should have atleast {0} characters,SPT,SPT:bip-services|
+PRIVILEGE_DISPLAY_NAME_MIN_LENGTH_MISSED,Privilege display name should have atleast {0} characters,SPT,SPT:bip-services|
+PRIVILEGE_DESCRIPTION_MIN_LENGTH_MISSED,Privilege description should have atleast {0} characters,SPT,SPT:bip-services|
+PRIVILEGE_NAME_MAX_LENGTH_EXCEED,Privilege name can have maximum {0} characters,SPT,SPT:bip-services|
+PRIVILEGE_DISPLAY_NAME_MAX_LENGTH_EXCEED,Privilege display name should not exceed {0} characters,SPT,SPT:bip-services|
+PRIVILEGE_DESCRIPTION_MAX_LENGTH_EXCEED,Privilege description can have maximum {0} characters,SPT,SPT:bip-services|
+ROLE_NAME_MIN_LENGTH_MISSED,Role name should have atleast {0} characters,SPT,SPT:bip-services|
+ROLE_DISPLAY_NAME_MIN_LENGTH_MISSED,Role display name should have atleast {0} characters,SPT,SPT:bip-services|
+ROLE_DESCRIPTION_MIN_LENGTH_MISSED,Role description should have atleast {0} characters,SPT,SPT:bip-services|
+ROLE_NAME_MAX_LENGTH_EXCEED,Role name can have maximum {0} characters,SPT,SPT:bip-services|
+ROLE_DISPLAY_NAME_MAX_LENGTH_EXCEED,Role display name can have maximum {0} characters,SPT,SPT:bip-services|
+ROLE_DESCRIPTION_MAX_LENGTH_EXCEED,Role description can have maximum {0} characters,SPT,SPT:bip-services|
+SECURE_KEY_NOT_MATCH,Invalid security key,SPT,SPT:bip-services|
+SECURITY_DETAIL_MISSING,Secure key details are missing,SPT,SPT:bip-services|
+SECURITY_KEY_IS_EMPTY,Security key is missing,SPT,SPT:bip-services|
+APPLICATION_DEPLOYMENT_ID_MISSING,Application deployment id is missing.,SPT,SPT:bip-services|
+TARGET_APP_URL_INVALID,"Target application URL is not well formed,use: <http|https>://<hostname|IP>:[port]",SPT,SPT:bip-services|
+UNABLE_TO_CONNECT,Unable to connect to target application,SPT,SPT:bip-services|
+REQUEST_VALIDITY_EXPIRED,Validity of the remote application access request has expired,SPT,SPT:bip-services|
+EXTERNAL_USERS_NOT_MODIFYIABLE,No operations can be performed on users originating from external sources,SPT,SPT:bip-services|
+EA_USER_ATTRIBUTE_MISSING,Firstname or lastname or email is missing in creating enterprise user,SPT,SPT:bip-services|
+EAUSER_USER_CREATE_FAILED,Failed in creating enterprise user in facility application,SPT,SPT:bip-services|
+USER_PREFERENCES_MSG_SUCCESS,List of User Preferences,SPT,SPT:bip-services|

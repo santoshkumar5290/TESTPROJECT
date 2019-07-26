@@ -1,0 +1,288 @@
+﻿Byte 0;Logic result 0
+Byte0.0;Result 0.0
+Byte0.1;Result 0.1
+Byte0.2;Result 0.2
+Byte0.3;Result 0.3
+Byte0.4;Result 0.4
+Byte0.5;Result 0.5
+Byte0.6;Result 0.6
+Byte0.7;Result 0.7
+Byte 1;Logic result 1
+Byte1.0;
+Byte1.1;
+Byte1.2;
+Byte1.3;
+Byte1.4;
+Byte1.5;
+Byte1.6;
+Byte1.7;
+Byte 2;Logic result 2
+Byte2.0;
+Byte2.1;
+Byte2.2;
+Byte2.3;
+Byte2.4;
+Byte2.5;
+Byte2.6;
+Byte2.7;
+Byte 3;Logic result 3
+Byte3.0;
+Byte3.1;
+Byte3.2;
+Byte3.3;
+Byte3.4;
+Byte3.5;
+Byte3.6;
+Byte3.7;
+Byte 4;Module 1 [XTIO[1]]
+Byte4.0;1 sensor muting.XTIO[1].I1
+Byte4.1;
+Byte4.2;
+Byte4.3;
+Byte4.4;
+Byte4.5;
+Byte4.6;
+Byte4.7;
+Byte 5;Module 2
+Byte5.0;
+Byte5.1;
+Byte5.2;
+Byte5.3;
+Byte5.4;
+Byte5.5;
+Byte5.6;
+Byte5.7;
+Byte 6;Module 3
+Byte6.0;
+Byte6.1;
+Byte6.2;
+Byte6.3;
+Byte6.4;
+Byte6.5;
+Byte6.6;
+Byte6.7;
+Byte 7;Module 4
+Byte7.0;
+Byte7.1;
+Byte7.2;
+Byte7.3;
+Byte7.4;
+Byte7.5;
+Byte7.6;
+Byte7.7;
+Byte 8;Module 5
+Byte8.0;
+Byte8.1;
+Byte8.2;
+Byte8.3;
+Byte8.4;
+Byte8.5;
+Byte8.6;
+Byte8.7;
+Byte 9;Module 6
+Byte9.0;
+Byte9.1;
+Byte9.2;
+Byte9.3;
+Byte9.4;
+Byte9.5;
+Byte9.6;
+Byte9.7;
+Byte 10;Module 7
+Byte10.0;
+Byte10.1;
+Byte10.2;
+Byte10.3;
+Byte10.4;
+Byte10.5;
+Byte10.6;
+Byte10.7;
+Byte 11;Module 8
+Byte11.0;
+Byte11.1;
+Byte11.2;
+Byte11.3;
+Byte11.4;
+Byte11.5;
+Byte11.6;
+Byte11.7;
+Byte 12;Module 9
+Byte12.0;
+Byte12.1;
+Byte12.2;
+Byte12.3;
+Byte12.4;
+Byte12.5;
+Byte12.6;
+Byte12.7;
+Byte 13;Module 10
+Byte13.0;
+Byte13.1;
+Byte13.2;
+Byte13.3;
+Byte13.4;
+Byte13.5;
+Byte13.6;
+Byte13.7;
+Byte 14;Module 11
+Byte14.0;
+Byte14.1;
+Byte14.2;
+Byte14.3;
+Byte14.4;
+Byte14.5;
+Byte14.6;
+Byte14.7;
+Byte 15;Module 12
+Byte15.0;
+Byte15.1;
+Byte15.2;
+Byte15.3;
+Byte15.4;
+Byte15.5;
+Byte15.6;
+Byte15.7;
+Byte 16;Module 1 [XTIO[1]]
+Byte16.0;
+Byte16.1;
+Byte16.2;
+Byte16.3;
+Byte16.4;
+Byte16.5;
+Byte16.6;
+Byte16.7;
+Byte 17;Module 2
+Byte17.0;
+Byte17.1;
+Byte17.2;
+Byte17.3;
+Byte17.4;
+Byte17.5;
+Byte17.6;
+Byte17.7;
+Byte 18;Module 3
+Byte18.0;
+Byte18.1;
+Byte18.2;
+Byte18.3;
+Byte18.4;
+Byte18.5;
+Byte18.6;
+Byte18.7;
+Byte 19;Module 4
+Byte19.0;
+Byte19.1;
+Byte19.2;
+Byte19.3;
+Byte19.4;
+Byte19.5;
+Byte19.6;
+Byte19.7;
+Byte 20;Module 5
+Byte20.0;
+Byte20.1;
+Byte20.2;
+Byte20.3;
+Byte20.4;
+Byte20.5;
+Byte20.6;
+Byte20.7;
+Byte 21;Module 6
+Byte21.0;
+Byte21.1;
+Byte21.2;
+Byte21.3;
+Byte21.4;
+Byte21.5;
+Byte21.6;
+Byte21.7;
+Byte 22;Module 7
+Byte22.0;
+Byte22.1;
+Byte22.2;
+Byte22.3;
+Byte22.4;
+Byte22.5;
+Byte22.6;
+Byte22.7;
+Byte 23;Module 8
+Byte23.0;
+Byte23.1;
+Byte23.2;
+Byte23.3;
+Byte23.4;
+Byte23.5;
+Byte23.6;
+Byte23.7;
+Byte 24;Module 9
+Byte24.0;
+Byte24.1;
+Byte24.2;
+Byte24.3;
+Byte24.4;
+Byte24.5;
+Byte24.6;
+Byte24.7;
+Byte 25;Module 10
+Byte25.0;
+Byte25.1;
+Byte25.2;
+Byte25.3;
+Byte25.4;
+Byte25.5;
+Byte25.6;
+Byte25.7;
+Byte 26;Module 11
+Byte26.0;
+Byte26.1;
+Byte26.2;
+Byte26.3;
+Byte26.4;
+Byte26.5;
+Byte26.6;
+Byte26.7;
+Byte 27;Module 12
+Byte27.0;
+Byte27.1;
+Byte27.2;
+Byte27.3;
+Byte27.4;
+Byte27.5;
+Byte27.6;
+Byte27.7;
+Byte 28;DirectOutW14.LB (Low Byte)
+Byte28.0;Bit0
+Byte28.1;Bit1
+Byte28.2;Bit2
+Byte28.3;Bit3
+Byte28.4;Bit4
+Byte28.5;Bit5
+Byte28.6;Bit6
+Byte28.7;Bit7
+Byte 29;DirectOutW14.HB (High Byte)
+Byte29.0;Bit0
+Byte29.1;Bit1
+Byte29.2;Bit2
+Byte29.3;Bit3
+Byte29.4;Bit4
+Byte29.5;Bit5
+Byte29.6;Bit6
+Byte29.7;Bit7
+Byte 30;DirectOutW15.LB (Low Byte)
+Byte30.0;Bit0
+Byte30.1;Bit1
+Byte30.2;Bit2
+Byte30.3;Bit3
+Byte30.4;Bit4
+Byte30.5;Bit5
+Byte30.6;Bit6
+Byte30.7;Bit7
+Byte 31;DirectOutW15.HB (High Byte)
+Byte31.0;Bit0
+Byte31.1;Bit1
+Byte31.2;Bit2
+Byte31.3;Bit3
+Byte31.4;Bit4
+Byte31.5;Bit5
+Byte31.6;Bit6
+Byte31.7;Bit7

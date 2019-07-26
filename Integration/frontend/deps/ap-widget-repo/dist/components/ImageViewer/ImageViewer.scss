@@ -1,0 +1,29 @@
+@import '../../config.scss';
+
+.image-viewer {
+  position: relative;
+
+  .loader {
+    position: absolute;
+    top: calc(50% - 50px);
+    position: absolute !important;
+    left: calc(50% - 50px);
+  }
+
+  .source {
+    display: none;
+  }
+
+  .control-set {
+    margin: 10px;
+    display: inline-block;
+  }
+
+  &.has-navbar .control-set {
+    margin-bottom: 60px;
+  }
+
+  .viewer-canvas {
+    background: $white;
+  }
+}

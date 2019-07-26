@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+ <property file="./config/product_logback_config.properties" />
+<appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <charset>UTF-8</charset>
+            <Pattern>${LOGS_PATTERN}</Pattern>
+        </encoder>
+    </appender>
+	`<appender name="enterpriselog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOGS_HOME}/${PRODUCT_LOGFILE_NAME}.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<!-- daily roll-over -->
+			<fileNamePattern>${LOGS_HOME}/${PRODUCT_LOGFILE_NAME}.%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
+			<maxFileSize>${LOGS_MAX_SIZE}</maxFileSize>
+			<maxHistory>${LOGS_TTL}</maxHistory>
+		</rollingPolicy>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<Pattern>${LOGS_PATTERN}</Pattern>
+		</encoder>
+	</appender>
+	<appender name="FrontendReportedLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOGS_HOME}/${FRONTEND_REPORTED_LOGFILE_NAME}.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<!-- daily rollover -->
+			<fileNamePattern>${LOGS_HOME}/${FRONTEND_REPORTED_LOGFILE_NAME}.%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
+			<maxFileSize>${LOGS_MAX_SIZE}</maxFileSize>
+			<maxHistory>${LOGS_TTL}</maxHistory>
+		</rollingPolicy>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<Pattern>${LOGS_PATTERN}</Pattern>
+		</encoder>
+	</appender>
+	<!-- Defaults for all log files -->
+	<root name="enterpriselog" level="INFO">
+		<appender-ref ref="enterpriselog" />
+	</root>
+	
+	
+	<!-- Specific to profiler log file -->
+	<logger name="FrontendReportedLog" level="INFO" additivity="false">
+		<appender-ref ref="FrontendReportedLog" />
+	</logger>
+</configuration>

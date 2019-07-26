@@ -1,0 +1,25 @@
+@import '../../config.scss';
+
+.media-overlay {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  overflow: hidden;
+  pointer-events: none;
+
+  svg {
+    pointer-events: none;
+  }
+
+  .qualifier-overlay {
+  	position: absolute;
+  	top: 0;
+  	left: 10px;
+  	color: rgb(255, 0, 0);
+
+  	.qualifier-item {
+  		margin-top: 15px;
+  	}
+  }
+}

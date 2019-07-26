@@ -1,0 +1,8 @@
+messageKey,en_US,categoryName,subcategoryName
+CONFIGURED_SETTINGS,Configured settings,SPT,SPT:bip-services|
+PRIVILEGE_LIST,List of all priviliges,SPT,SPT:bip-services|
+AVAILABLE_PRIVILEGE_LIST,List of available privileges,SPT,SPT:bip-services|
+SUCCESS,Success,SPT,SPT:bip-services|
+USER_DETAILS,User details,SPT,SPT:bip-services|
+SUCCESS_RESPONSE_MESSAGE,Success,SPT,SPT:bip-services|
+SMS_SUCCESS,Text message (SMS) sent successfully,SPT,SPT:bip-services|

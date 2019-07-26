@@ -1,0 +1,24 @@
+@import '../../config.scss';
+
+.chart-widget {
+  .series-dialog-trigger {
+    display: none;
+  }
+  .sidebar {
+    display: inline-block
+  }
+
+  @media all and (max-width: $mobile-large) {
+    .series-dialog-trigger {
+      display: inline-block;
+    }
+    .has-legend {
+      .content {
+        width: 100% !important;
+      }
+    }
+    .sidebar-hidden {
+      display: none;
+    }
+  }
+}

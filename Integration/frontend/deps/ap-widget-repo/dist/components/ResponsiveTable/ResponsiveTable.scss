@@ -1,0 +1,139 @@
+@import '../../config.scss';
+
+.responsive-table-widget {
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  position: relative;
+
+  table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    max-width: 5000px;
+    overflow: hidden;
+    position: relative;
+
+    thead {
+      color: rgba(0, 0, 0, 0.54);
+    }
+
+    tbody {
+      padding-right: 0 !important;
+    }
+
+    thead, tbody {
+      width: 100%;
+    }
+
+    tr {
+      width: 100%;
+      height: 48px;
+
+      &.selected {
+        background-color: $grey300;
+      }
+    }
+
+    th {
+      font-weight: bold;
+      color: $lightBlue700;
+    }
+
+    th, td {
+      text-align: left;
+      white-space: nowrap;
+      padding: 5px 10px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-color: $grey300;
+      font-size: 13px;
+    }
+  }
+
+  .no-row-indicator {
+    tr {
+      display: table !important;
+      td {
+        text-align: center;
+      }
+    }
+  }
+
+  &.fixed-height {
+    thead, tbody {
+      display: table;
+      table-layout: fixed;
+    }
+
+    thead {
+      flex: 0 0 auto;
+      width: 100%;
+      overflow: hidden !important;
+    }
+
+    tbody {
+      display: block;
+      flex: 1 1 auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      overflow-x: hidden !important;
+      overflow-y: scroll !important;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      tr {
+        width: 100%;
+      }
+    }
+
+    &.widths-set {
+      .resize-container {
+        table-layout: fixed;
+        display: table;
+        width: 100%;
+      }
+
+      .resize-value {
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        word-break: break-all;
+        word-wrap: break-word;
+        width: calc(100% - 1px);
+      }
+
+      .resize-handle {
+        outline: solid 1px black;
+        cursor: col-resize;
+        float: right;
+        width: 0;
+      }
+
+      th, td {
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      &.resizeable {
+        tr {
+          display: table-row;
+        }
+      }
+
+      tr {
+        display: table;
+      }
+    }
+  }
+
+  &.no-header {
+    overflow-y: auto;
+  }
+}

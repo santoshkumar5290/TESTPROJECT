@@ -1,0 +1,16 @@
+@import '../../config.scss';
+
+.image-loader {
+  position: relative;
+
+  .loader {
+    position: absolute;
+    top: calc(50% - 50px);
+    position: absolute !important;
+    left: calc(50% - 50px);
+  }
+
+  div div svg {
+    fill: $lightBlue700 !important;
+  }
+}

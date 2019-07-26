@@ -1,0 +1,13 @@
+@import './../../config.scss';
+
+.device-loader-bar {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 40px;
+  border-bottom: 2px solid $black;
+}

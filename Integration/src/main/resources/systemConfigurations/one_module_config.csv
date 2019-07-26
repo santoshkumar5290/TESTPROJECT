@@ -1,0 +1,17 @@
+Systems;1;
+Single Mod Test System;
+Test System with single componenet;
+Data Sources;1;
+FLEXI_SOFT;
+10.102.11.194;
+flexi-soft 1;
+Components;1;
+Stop Pushbutton 1;
+spb1;
+Control Devices;
+Button to stop the system, must be rotated to restart;
+Single Mod Test System;
+ES21;
+INPUT_VALUES_MODULE_1_1;
+flexi-soft 1;
+TRUE;
