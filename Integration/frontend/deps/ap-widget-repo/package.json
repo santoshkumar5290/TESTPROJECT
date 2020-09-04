@@ -107,7 +107,7 @@
     "json-loader": "^0.5.4",
     "lodash": "^4.17.4",
     "lodash.flow": "3.5.0",
-    "lodash.mergewith": "4.6.0",
+    "lodash.mergewith": "4.6.2",
     "material-ui": "0.17.4",
     "material-ui-image": "^2.1.1",
     "mathjs": "3.8.1",
