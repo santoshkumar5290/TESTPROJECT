@@ -79,7 +79,7 @@
     "karma-webpack": "2.0.1",
     "mocha": "3.2.0",
     "mock-socket": "6.0.4",
-    "node-sass": "4.5.0",
+    "node-sass": "7.0.0",
     "normalize.css": "5.0.0",
     "phantomjs-polyfill": "0.0.2",
     "phantomjs-prebuilt": "2.1.14",
